@@ -77,7 +77,6 @@ public class Store {
 		Checkout checkout = new Checkout(ProductRules.getPricingRules());
 		
 		checkout.scan(StoreProducts.getMacbookPro().getSku());
-		checkout.scan(StoreProducts.getMacbookPro().getSku());
 		checkout.scan(StoreProducts.getVga().getSku());
 		checkout.scan(StoreProducts.getIpad().getSku());
 		
